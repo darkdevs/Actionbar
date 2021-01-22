@@ -2,7 +2,22 @@
 Custom Android Actionbar with a lot of capabilities like Tabs , subtitle , menubutton , backbutton , text and icon buttons , ...
 
 ![Simple Actionbar](ScreenShots/1.png)
-### How to Use
+
+
+## install
+### Main build.gradle
+```
+buildscript {
+    
+    repositories {
+        jcenter()
+    }
+}
+```
+### App build.gradle
+```
+implementation 'com.dpouya:PActionbar:1.0.0'
+```
 
 ### Normal Actionbar
 
